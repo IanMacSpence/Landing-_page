@@ -49,6 +49,7 @@ li a {
 
 .hero-left {
   width: 33%;
+  min-width: 500px;
   margin-bottom: 5%;
 }
 
