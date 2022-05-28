@@ -7,4 +7,4 @@ I've previously practiced building a webpage with html and styling it with css. 
 
 This project also involves a little more problem solving than previous projects as there was a lot more flexibility with the style in them, whereas this one I'm given a design and I need to make it from scratch. It's almost as if I was given a design in a job or by a client, so it seems quite job-like for me. 
 
-https://IanMacSpence.github.io/landing-page/
+https://IanMacSpence.github.io/landing-page.git/
