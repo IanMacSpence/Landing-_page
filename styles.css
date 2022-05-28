@@ -1,13 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;1,300&display=swap");
 
 body {
   font-family: Roboto, sans-serif;
   margin: 0;
 }
 
+/*hero*/
 .intro {
-  background-color: #1F2937;
-
+  background-color: #1f2937;
 }
 
 .header {
@@ -17,9 +17,9 @@ body {
   padding: 16px 0;
 }
 
-.logo{
+.logo {
   font-size: 24px;
-  color: #F9FAF8;
+  color: #f9faf8;
   margin-left: 175px;
 }
 
@@ -34,18 +34,18 @@ body {
 }
 
 .header-link li {
-  
 }
 
 li a {
   text-decoration: none;
-  color: #E5E7EB;
+  color: #e5e7eb;
 }
-       
+
 .hero {
   display: flex;
   padding: 100px 0;
   justify-content: space-between;
+  /flex-wrap: wrap;
 }
 
 .hero-left {
@@ -56,23 +56,22 @@ li a {
 .hero-main {
   font-size: 48px;
   font-weight: 800;
-  color: #F9FAF8;
+  color: #f9faf8;
 }
 
 .hero-text {
   font-size: 18px;
-  color: #E5E7EB;
+  color: #e5e7eb;
 }
 
-.sign-up {
+.hero-button {
   margin-top: 16px;
   border: none;
   border-radius: 8px;
   font-size: 18px;
   background-color: #24a0ed;
-  color: #F9FAF8;
+  color: #f9faf8;
   padding: 8px 36px;
-  
 }
 
 .hero-img {
@@ -80,3 +79,99 @@ li a {
   height: 250px;
   margin-right: 150px;
 }
+
+/* Some random information */
+.title {
+  font-size: 36px;
+  font-weight: extra-bold;
+  color: #1f2937;
+  margin: 48px 0;
+  text-align: center;
+}
+
+.random-info-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 96px;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.card {
+  max-width: 153px;
+  text-align: center;
+}
+
+/* QUOTE */
+
+blockquote {
+  background-color: #e5e7eb;
+  margin: 0;
+  padding: 96px 8em;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-style: italic;
+}
+
+.quote-author {
+  font-size: 18px;
+  text-align: right;
+  font-weight: 900;
+}
+
+/* CALL TO ACTION */
+
+.action {
+  padding: 75px;
+  display: flex;
+  justify-content: center;
+}
+
+.action-bar {
+  background-color: #24a0ed;
+  padding: 35px 50px;
+  width: 70%;
+  border-radius: 8px;
+  color: #f9faf8;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.action-head {
+  font-size: 24px;
+  font-weight: 800px;
+}
+
+.action-sub {
+  color: #e5e7eb;
+}
+
+.action-button {
+  margin-top: 16px;
+  border: solid #f9faf8;
+  border-radius: 8px;
+  font-size: 18px;
+  background-color: #24a0ed;
+  color: #f9faf8;
+  padding: 8px 36px;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 24px;
+  background-color: #1f2937;
+  color: #e5e7eb;
+}
+
+/* 
+FIXES
+> fonts
+> alts
+> needs to be responsive and work on mobile 
+> layout and how flex is used
+
+*/
