@@ -1,4 +1,4 @@
-# Landing_page
+# landing-page
 TOP Landing Page project
 
 This project practices creating a landing page based off of a given image. 
